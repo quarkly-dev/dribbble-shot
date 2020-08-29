@@ -6,6 +6,7 @@ import * as Components from "components";
 import { MdCardGiftcard, MdCardMembership, MdFingerprint, MdSubtitles, MdLockOutline, MdQueuePlayNext, MdDeleteForever, MdBugReport, MdInvertColors, MdFace } from "react-icons/md";
 export default (() => {
 	return <Theme theme={theme}>
+		<Components.YaMetrika />
 		<Section background="--color-indigo">
 			<Box height="30px" />
 			<Box />
